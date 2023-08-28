@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google_meet_JD</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <scrip src="https://kit.fontawesome.com/9a458621e9.js" crossorigin="anonymous">
+    </script>
+    <!-- =====Fontawesome CDN Link===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="script.js">
+
+</head>
+
+<body>
+  <!--Navbar start-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <img class="img-fluid" src="img/Google Meet logo.svg" alt="logo">
+
+          <form class="form" role="search">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <a class="me-2 mt-2 text-decoration-none text-dark" href="#">Sign In</a>
+            <button class="btn text-primary btn-outline-dark mx-1" type="submit"><img class="excon"
+                src="img/exit_to_app-24px.svg" alt="">Join the meeting</button>
+            <button class="btn btn-outline-success bg-primary text-white" type="submit"><img class="vcon"
+                src="img/videocam-24px.svg" alt="">Start a meeting</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Navbar End-->
+  <!--Section1 Start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 p-3 flo">
+        <h1> Video call and Meeting <br> facilities for all.</h1>
+        <p>Google Meet is a service that is available to everyone on every device. It can be used for video meetings and
+          calls of safe and good quality.</p>
+        <button type="button" class="btn btn-primary btn-lg ms-2 fs-6"><i class="fa-solid fa-video"></i>
+          Start a meeting</button>
+        <!-- <div class="input-group flex-nowrap " id="meeting">
+        <span class="input-group-text" id="addon-wrapping">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+        <a href="#" class="btn btn-secondary disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
+      </div> -->
+        <div class="input-group meeting mt-3">
+          <span class="input-group-addon keyboard"><i class="fa-regular fa-keyboard" style="color: #6a6d71;"></i></span>
+          <input id="password" type="password" class="form-control" name="password" placeholder="Enter meeting code">
+        </div>
+      </div>
+      <div class="col-12 p-3 col-lg-6 ">
+        <img src="img/Hero image.png" alt="hero" class="img-thumbnail img-fluid mb-4 mt-5" width="535" height="351">
+      </div>
+    </div>
+  </div>
+  <!--Section1 End-->
+
+  <!--Section2 Start-->
+  <div class="container">
+    <hr>
+    Don't have an account?
+    <a href="#">Create account now</a>
+    <hr>
+  </div>
+  <!--Section2 End-->
+
+  <!--Section3 Start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 p-3">
+        <h3>Meet is completely safe</h3>
+        <p>Meet uses the same security measures that Google uses to protect your information and privacy. Encrypts ( are
+          protected ) during video conference transit on Meet. Our security measures are constantly updated, so that you
+          get better security.</p>
+        <a href="#">Learn more about safety and rules compliance</a>
+      </div>
+      <div class="col-12 col-md-6">
+        <img class="img-fluid" src="img/Meet is completely safe.png" alt="safe" width="535" height="351">
+      </div>
+    </div>
+  </div>
+  <!--Section3 End-->
+
+  <!--Section4 Start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-12  ">
+        <img class="img-fluid mb-4" src="img/What is google meet.png" alt="what" width="535" height="351">
+      </div>
+      <div class="col-12 col-md-6 ">
+        <h3>Meet use, from anywhere</h3>
+        <p>Bring your entire team to Google Meet. Here business related offers can be shown, chemistry assignments can
+          be worked together or talked face to face.
+
+          Live streams of business, schools, and other organization meetings can reach 1,00,000 people in the same
+          domain.</p>
+
+        <a href="#">See plans and prices for organizations</a>
+      </div>
+    </div>
+  </div>
+  <!--Section4 End-->
+
+  <!--Section5 Start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 p-3">
+        <h3>Use Meet on any device and from anywhere</h3>
+        <p>Guests can join meetings and calls from their computer, using any modern web browser. They do not have to
+          install any other software. On mobile devices, they can join meetings and calls from the Google Meet
+          application. Google can also be involved in meetings and calls using Nest Hub Max.</p>
+        <a href="#"><img class="img-fluid " src="img/Google Play Store.png" id="playstore"></a>
+        <a href="#"><img class="img-fluid " src="img/Apple App Store.png" id="playstore"></a>
+        <br>
+        <a href="#" class="mt-2">Connect securely with the team from anywhere, using Chrome OS devices</a>
+      </div>
+      <div class="col-12 col-md-6 p-3">
+        <img class="img-fluid " src="img/Need access to any device.png">
+
+      </div>
+    </div>
+  </div>
+  <!--Section5 End-->
+
+  <!--Section6 Start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 p-3">
+        <img class="img-fluid" src="img/Meet Mean Quality.png" alt="quality" width="535" height="351">
+      </div>
+      <div class="col-12 col-md-6 p-3">
+        <h3>Meet Mean Quality</h3>
+        <p>Google Meet works according to the speed of your network. This gives you good quality video calls, no matter
+          where you are. Due to the new AI (AI) improvements, the sound of your call is heard very clearly, no matter
+          how noisy you are around</p>
+      </div>
+    </div>
+  </div>
+  <!--Section6 End-->
+
+  <!--Section7 Start-->
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-12 col-md-6">
+        <h3>Meet is for everyone</h3>
+        <p>Google Meet makes the meeting even easier, with the help of Google's bid identifying technology, a live
+          caption facility. With the help of live captions, people who speak a second language and people who are less
+          heard, it becomes easier to understand the activities in the meeting. Also, it is easy to follow a meeting
+          with the help of live captions at any noisy place ( available in English only ).</p>
+        <a href="#">Learn more about accesibility features</a>
+
+      </div>
+      <div class="col-12 col-md-6">
+        <img class="img-fluid" src="img/Meet is for everyone.png" alt="everyone" width="511.667" height="319.22">
+      </div>
+    </div>
+  </div>
+  <!--Section7 End-->
+
+  <!--Section8 Start-->
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <img class="img-fluid" src="img/Stay connected with the meeting.png" alt="meeting" width="48" height="48"
+          id="botimg">
+        <h5 class="mb-3">Stay connected with the meeting</h5>
+        <p>People are interested in the convenience of making schedules easily, easy recording, and changing layouts.
+        </p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <img class="img-fluid" src="img/Screen sharing with meeting participants.png" alt="screen" width="48"
+          height="48" id="botimg">
+        <h5 class="mb-3">Share your screen</h5>
+        <p>Present your documents, slides, and spreadsheets by showing your entire screen or just a window.</p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <img src="img/Host a meeting.png" alt="host" width="48" height="48" id="botimg">
+        <h5 class="mb-3">Host a big meeting</h5>
+        <p>You can call people from the same domain or outside that domain in the meeting. Their number should not
+          exceed 500.</p>
+      </div>
+
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <img src="img/Join the meeting with your phone.png" alt="phone" width="48" height="48" id="botimg">
+        <h5 class="mb-3">Join the meeting with your phone</h5>
+        <p>Use the Google Meet application to join a video call or just join an audio call by calling the 'number given
+          to dial' in the call of the meeting.</p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <img src="img/Taking decisions about the meeting.png" alt="decisions" width="48" height="48" id="botimg">
+        <h5 class="mb-3">Taking decisions about the meeting</h5>
+        <p>These meetings are protected by default. The host of the meeting can decide who will attend the meeting.
+          People who have been allowed to attend the meeting with the host, the same people can participate in it.</p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4">
+        <img src="img/Broadcast event.png" alt="broadcast" width="48" height="48" id="botimg">
+        <h5 class="mb-3">Broadcast internal event</h5>
+        <p>You can stream events like town halls and sales meetings live in your domain for more than 1,00,000 people.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--Section7 End-->
+
+  <!--Section8 start-->
+  <div class="container ">
+    <h2 class="meet trust">Giants trust Google Meet</h2>
+    <div class="row rw1 meet d-flex align-content-center justify-content-center ">
+      <div class="col-6 col-sm-3"><img class="img-fluid" src="img/Colagte-palmolive.png" alt="colgate" height="20"
+          width="147"></div>
+      <div class="col-6 col-sm-3"><img class="img-fluid" src="img/GANT.png" alt="gant" height="18" width="136"></div>
+      <div class="col-6 col-sm-3"><img class="img-fluid" src="img/BBVA logo.png" alt="bbva" height="29" width="98">
+      </div>
+      <div class="col-6 col-sm-3"><img class="img-fluid" src="img/Salesforce logo.png" alt="salesforce" height="57"
+          width="89"></div>
+
+
+      <div class="col-6 col-sm-3"><img class="img-fluid" src="img/AIRBUS logo.png" alt="airbus" height="26" width="140">
+      </div>
+      <div class="col-6 col-sm-3"><img class="img-fluid" src="img/Twitter logo.png" alt="twitter" height="49"
+          width="57"></div>
+      <div class="col-6 col-sm-3"><img class="img-fluid" src="img/Whirlpool.png" alt="whirlpool" height="40"
+          width="118"></div>
+      <div class="col-6 col-sm-3"><img class="img-fluid" src="img/PWC logo.png" alt="PWC" height="60" width="77"></div>
+    </div>
+  </div>
+  <!--Section8 End-->
+
+  <!--Section9 Start-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <P>MOST ASKED QUESTIONS</P>
+      </div>
+      <div class="col">
+        <div class="dropdown">
+          <!-- <button class="btn btn-secondary" type="button" aria-expanded="false">
+            Show All
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-chevron-expand" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z" />
+            </svg>
+          </button> -->
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="accordion">
+      <div class="accordion-content">
+        <header>
+          <span class="title"><a href="" id="adec" class="text-decoration-none">What is the difference between Google
+              Hangouts,
+              Hangouts Meet, and Google Meet?</a></span>
+          <i class="fa-solid fa-chevron-down" style="color: #164ae3;"></i>
+        </header>
+
+        <p class="description">
+          Hangouts Meet and Hangouts Chat were rebranded in April 2020 under the name Google Meet and Google Chat. We
+          did Alan in the year 2019 that we Classic Version of Hangouts Will migrate all users of its new product Meet
+          and Chat. To provide enterprise-grade online video conference facility to all, we signed a version of Google
+          Meet in May 2020 that does not have to pay any fees for use.
+        </p>
+      </div>
+      <hr>
+      <div class="accordion-content">
+        <header>
+          <span class="title"><a href="" class="text-decoration-none">Is Google Meet Safe?</a></span>
+          <i class="fa-solid fa-chevron-down" style="color: #164ae3;"></i>
+        </header>
+
+        <p class="description">
+          Yes. Meet uses security based on Google Cloud's design infrastructure, to protect your data and your privacy.
+          you here Our guidelines related to privacy protection, our methods of preventing misuse, and data security can
+          be learned.
+        </p>
+      </div>
+      <hr>
+      <div class="accordion-content">
+        <header>
+          <span class="title"><a href="" class="text-decoration-none">Can outsiders also join the call?</a></span>
+          <i class="fa-solid fa-chevron-down" style="color: #164ae3;"></i>
+        </header>
+
+        <p class="description">
+          absolutely. If the meeting is called from a section of Google Meet that does not have to be paid for use, So
+          to join this all people have to sign in to their Google account. A Google account can be created using an
+          office or private email address.
+          <br>
+          Users of Google Workspace can send an invitation to anyone to attend the meeting after creating a meeting.
+          This includes people not using Google account. For this, they simply have to share the meeting ID or link with
+          the people participating in the meeting.
+        </p>
+      </div>
+      <hr>
+    </div>
+  </div>
+
+
+  </div>
+
+  </div>
+  <!--Section9 End-->
+
+  <!--footer-->
+  <footer class="glue-footer glue-mod-spacer-5-top">
+    <section class="glue-footer__global">
+      <div class="glue-footer__logo">
+        <a href="https://www.google.com" title="Google" class="" event-category="nav" event-action="google logo"
+          event-label="https://www.google.com" target="_blank">
+          <svg role="img" class="glue-footer__logo-img" alt="">
+            <title>Google</title>
+            <use xlink:href="/static/img/glue-icons.svg#google-solid-logo"></use>
+          </svg>
+        </a>
+      </div>
+
+      <ul class="glue-footer__global-links glue-no-bullet">
+        <li class="glue-footer__global-links-list-item">
+          <a class="glue-footer__link" href="https://about.google/" event-category="footer" event-action="about google"
+            event-label="https://about.google/" target="_blank">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">About google</font>
+            </font>
+          </a>
+        </li>
+        <li class="glue-footer__global-links-list-item">
+          <a class="glue-footer__link" href="https://about.google/products/" event-category="footer"
+            event-action="google products" event-label="https://about.google/products/" target="_blank">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Google Products</font>
+            </font>
+          </a>
+        </li>
+        <li class="glue-footer__global-links-list-item">
+          <a class="glue-footer__link" href="https://policies.google.com/privacy" event-category="footer"
+            event-action="privacy" event-label="https://policies.google.com/privacy" target="_blank">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Privacy</font>
+            </font>
+          </a>
+        </li>
+        <li class="glue-footer__global-links-list-item">
+          <a class="glue-footer__link" href="https://policies.google.com/terms" event-category="footer"
+            event-action="terms" event-label="https://policies.google.com/terms" target="_blank">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">The conditions</font>
+            </font>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="glue-footer__global-links glue-footer__global-links--extra glue-no-bullet">
+        <li class="glue-footer__global-links-list-item glue-footer__global-links-list-item--extra">
+          <a href="https://support.google.com/meet#topic=7306097" class=" glue-footer__link" event-category="footer"
+            event-action="help" event-label="https://support.google.com/meet#topic=7306097" target="_blank">
+            <svg role="img" aria-hidden="true" class="glue-icon glue-icon--24px glue-icon--footer-help">
+              <use xlink:href="/static/img/glue-icons.svg#help"></use>
+            </svg>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">
+                help
+              </font>
+            </font>
+          </a>
+
+        </li>
+        <li>
+
+        </li>
+        <li class="">
+          <label for="lang-selector" class="glue-mod-visually-hidden">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Change language or locality</font>
+            </font>
+          </label>
+          <select name="lang-selector" id="lang-selector" class="glue-form__dropdown glue-footer__lang-dropdown ">
+            <option value="/intl/af/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Afrikans - Afrikans</font>
+              </font>
+            </option>
+            <option value="/intl/am/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Aimharic - 수수 ⁇ ( Amharic)</font>
+              </font>
+            </option>
+            <option value="/intl/ar/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Arabic - ⁇ العربية ⁇ </font>
+              </font>
+            </option>
+            <option value="/intl/bg/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Bulgarian - български</font>
+              </font>
+            </option>
+            <option value="/intl/bn/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Bangla - ⁇ ⁇ ⁇ া</font>
+              </font>
+            </option>
+            <option value="/intl/ca/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Catalan - català</font>
+              </font>
+            </option>
+            <option value="/intl/cs/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Czech - Čeština</font>
+              </font>
+            </option>
+            <option value="/intl/da/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Danish - Dansk</font>
+              </font>
+            </option>
+            <option value="/intl/de/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  German - Deutsch</font>
+              </font>
+            </option>
+            <option value="/intl/el/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Greek - Ελληνικά</font>
+              </font>
+            </option>
+            <option value="/intl/en/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  English ( US ) - English ( United States )</font>
+              </font>
+            </option>
+            <option value="/intl/en-GB/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  English ( UK ) - English - UK</font>
+              </font>
+            </option>
+            <option value="/intl/es/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Spanish - Español</font>
+              </font>
+            </option>
+            <option value="/intl/es-419/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Spanish ( Latin American ) - Español ( Latinoamérica)</font>
+              </font>
+            </option>
+            <option value="/intl/et/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Estonian - eesti</font>
+              </font>
+            </option>
+            <option value="/intl/eu/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Basque - Euskara</font>
+              </font>
+            </option>
+            <option value="/intl/fa/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Persian - فارسی</font>
+              </font>
+            </option>
+            <option value="/intl/fi/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Finnish - Suomi</font>
+              </font>
+            </option>
+            <option value="/intl/fil/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Filipino - Filipino</font>
+              </font>
+            </option>
+            <option value="/intl/fr/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  French - Français</font>
+              </font>
+            </option>
+            <option value="/intl/ro/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Romanian - Română</font>
+              </font>
+            </option>
+            <option value="/intl/ru/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Rasian - Русский</font>
+              </font>
+            </option>
+            <option value="/intl/sk/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Slovak - Slovenčina</font>
+              </font>
+            </option>
+            <option value="/intl/sl/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Slovenian - Slovenščina</font>
+              </font>
+            </option>
+            <option value="/intl/sr/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Serbian - Српски</font>
+              </font>
+            </option>
+            <option value="/intl/sv/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Swedish - Svenska</font>
+              </font>
+            </option>
+            <option value="/intl/sw/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Swahili - Kiswahili</font>
+              </font>
+            </option>
+            <option value="/intl/ta/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Tamil - ⁇ ்ւ்</font>
+              </font>
+            </option>
+            <option value="/intl/te/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Telugu - ⁇ ⁇ ⁇ </font>
+              </font>
+            </option>
+            <option value="/intl/th/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Thai - ไทย</font>
+              </font>
+            </option>
+            <option value="/intl/tr/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Turkish - Türkçe</font>
+              </font>
+            </option>
+            <option value="/intl/uk/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Ukrainian - Українська</font>
+              </font>
+            </option>
+            <option value="/intl/ur/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Urdu - اردو</font>
+              </font>
+            </option>
+            <option value="/intl/vi/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Vietnamiz - Tiếng Việt</font>
+              </font>
+            </option>
+            <option value="/intl/zh-CN/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Chinese ( Simple ) - 中文（简体中文）</font>
+              </font>
+            </option>
+            <option value="/intl/zh-HK/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Chinese ( Hong Kong ) - 中文 ( 香港 )</font>
+              </font>
+            </option>
+            <option value="/intl/zh-TW/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Chinese ( Traditional ) - 中文（ 繁體中文）</font>
+              </font>
+            </option>
+            <option value="/intl/zu/meet/">
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">
+                  Zulu - isiZulu</font>
+              </font>
+            </option>
+          </select>
+        </li>
+      </ul>
+
+    </section>
+  </footer>
+  <!--footer End-->
+  <script src="./script.js"></script>
+</body>
+
+</html>
